@@ -1,0 +1,1 @@
+import{a as s,b as n,i as o,e as r,w as m,f as d,o as u,t as p}from"./index-accd95a7.js";const f={__name:"test",setup(c){const e=s("# test");return(i,t)=>{const a=d("EditorHtml");return u(),n("div",null,[o(" test "),r(a,{modelValue:e.value,"onUpdate:modelValue":t[0]||(t[0]=l=>e.value=l)},{default:m(()=>[o(p(e.value),1)]),_:1},8,["modelValue"])])}}};export{f as default};
