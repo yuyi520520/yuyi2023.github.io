@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;  /*IE盒模型，长宽包括内边距边框*/
+}
+
+.op{
+    display: flex;
+    align-items: center;
+}
+
+a.a-link{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.not-allow{
+    text-decoration: none;
+    color:#ddd;
+    cursor: not-allowed;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(239,239,239);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #bfbfbf;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #bfbfbf;
+}
+
+::-webkit-scrollbar-corner{
+    background: #bfbfbf;
+}
